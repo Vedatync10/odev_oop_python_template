@@ -15,14 +15,20 @@ urun fiyati hesaplarken once kar sonra otv ve kdv sirayla alis fiyatina eklenmel
 
 hazırlayan @aucan
 
-Öğrenci Ad Soyad=
-Öğrenci No=
-Bölüm=
-Sınıf=
+Öğrenci Ad Soyad=Vedat Yenice
+Öğrenci No=2018507014
+Bölüm=YBS   
+Sınıf=4
 '''
 
-class urunler:
-    #kodunuzu bu yorum satırını silerek buraya yazınız, diğer kısımları değiştirmeyiniz.
+class urunler:      
+   def __init__(self,ekmek,patates,elma,un,yumurta,14,0.20,0.18)
+self.ekmek= ekmek
+self.yumurta = yumurta
+self.patates = patates
+self.elma = elma
+self.un= un
+
    
         
     
@@ -41,7 +47,14 @@ def sepet_fiyati(kar_orani):
     yumurta=urunler('yumurta',5,0.30,0.19)
     toplam=0   
     #-------**-----------
-    #kodunuzu bu yorum satırını silerek buraya yazınız, diğer kısımları değiştirmeyiniz.
+    for toplam
+    {
+    kdv = 0.18
+    otv = 0.20
+        toplam = kdv + otv
+        
+    }
+    print(toplam)
     #-------**-----------
     return toplam
 
